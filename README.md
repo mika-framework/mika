@@ -1,2 +1,2 @@
-# mika
+# Mika
 DDD-oriented PHP framework

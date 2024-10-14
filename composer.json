@@ -1,0 +1,22 @@
+{
+    "name": "mikaframework/mika",
+    "description": "DDD-oriented PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mika\\": "src/Mika/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Levandovski"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "^7.0",
+        "symfony/routing": "^7.0",
+        "symfony/http-kernel": "7.2.x-dev"
+    }
+}
